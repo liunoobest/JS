@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+     上面是xml文件的声明
+     version="1.0"  version 表示xml的版本
+     encoding="utf-8"  表示xml文件本身的编码
+-->
+<books><!--books 是自定义xml元素， 在这里要表示多个图书信息-->
+    <book sn="SN123412123412"><!--自定义标签book，表示一个图书信息-->
+
+        <name>时间简史</name><!--自定义xml元素，name,表示书名-->
+        <author>霍金</author><!--自定义xml元素author,表示作者-->
+        <price>30</price><!--自定义xml元素price，表示书的价格-->
+
+    </book>
+
+    <book sn="SN123412123412"><!--自定义xml元素book，表示一个图书信息-->
+
+        <name>java从入门到精通</name><!--自定义xml元素，name,表示书名-->
+        <author>金宝</author><!--自定义xml元素author,表示作者-->
+        <price>30</price><!--自定义xml元素price，表示书的价格-->
+
+    </book>
+
+
+
+</books>
